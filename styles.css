@@ -3,6 +3,9 @@ body {
     background-color: whitesmoke;
 }
 
+.navbar{
+    background-color:#003f60;
+}
 
 a {
     color: lightgray; 
@@ -26,3 +29,21 @@ label{
 .borda{
     border: 1px solid rgb(17, 0, 255);
 }
+
+@media (max-width: 1200px) { 
+    .sumir{  
+        display :none;
+    }   
+    .foto{
+        width: 80%;
+    }
+
+    .titulo{
+       font-size: medium; 
+    }
+
+    .fonte{
+        font-size: 80%;
+    }
+}
+
