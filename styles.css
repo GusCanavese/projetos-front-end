@@ -30,20 +30,59 @@ label{
     border: 1px solid rgb(17, 0, 255);
 }
 
-@media (max-width: 1200px) { 
-    .sumir{  
-        display :none;
-    }   
-    .foto{
-        width: 80%;
+/* Media query para telas menores (como celulares) */
+@media (max-width: 768px) {
+    .imagem-mulher {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%; /* Ocupa 100% da largura da tela */
+        margin: 0 auto;
     }
 
-    .titulo{
-       font-size: medium; 
+    /* Ajuste para o texto e outros elementos */
+    .col-md-5 {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    
+    .text-light {
+        position: static;
+        text-align: center;
+        padding: 20px;
     }
 
-    .fonte{
-        font-size: 80%;
+
+    .navbar-brand, .nav-link {
+        padding: 0;
     }
+
+    /* Garantir que os links e logo fiquem na mesma linha */
+    .row {
+        flex-wrap: nowrap;
+    }
+
+    /* Ajustar o alinhamento para caber tudo na mesma linha */
+    .navbar-brand img {
+        width: 100px; /* Ajustar o tamanho do logo para caber melhor em telas menores */
+    }
+
+    /* Ajustar os links para ficarem centralizados e na mesma linha */
+    .nav-link {
+        flex: 1;
+        text-align: center;
+    }
+
+    .prevendo_celular {
+        position: fixed; /* Fixar a navegação no topo */
+        top: 0;
+        left: 0;
+        z-index: 999; /* Garantir que nada sobreponha a barra */
+        width: 100%; /* Ocupa toda a largura da tela */
+    }
+
+    
+    
 }
-
