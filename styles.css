@@ -30,7 +30,26 @@ label{
     border: 1px solid rgb(17, 0, 255);
 }
 
-<<<<<<< HEAD
+
+@media (max-width: 1200px) { 
+    .sumir{  
+        display :none;
+    }   
+    .foto{
+        width: 80%;
+    }
+
+    .titulo{
+       font-size: medium; 
+    }
+
+    .fonte{
+        font-size: 80%;
+    }
+}
+
+
+
 /* Media query para telas menores (como celulares) */
 @media (max-width: 768px) {
     .imagem-mulher {
@@ -55,8 +74,6 @@ label{
         padding: 20px;
     }
 
-=======
->>>>>>> ca4d9152827dc128bf66b98dab3fbdcee4bda657
 
     .navbar-brand, .nav-link {
         padding: 0;
