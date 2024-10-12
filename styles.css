@@ -30,20 +30,4 @@ label{
     border: 1px solid rgb(17, 0, 255);
 }
 
-@media (max-width: 1200px) { 
-    .sumir{  
-        display :none;
-    }   
-    .foto{
-        width: 80%;
-    }
-
-    .titulo{
-       font-size: medium; 
-    }
-
-    .fonte{
-        font-size: 80%;
-    }
-}
 
