@@ -30,6 +30,7 @@ label{
     border: 1px solid rgb(17, 0, 255);
 }
 
+<<<<<<< HEAD
 /* Media query para telas menores (como celulares) */
 @media (max-width: 768px) {
     .imagem-mulher {
@@ -54,6 +55,8 @@ label{
         padding: 20px;
     }
 
+=======
+>>>>>>> ca4d9152827dc128bf66b98dab3fbdcee4bda657
 
     .navbar-brand, .nav-link {
         padding: 0;
