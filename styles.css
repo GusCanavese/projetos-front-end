@@ -1,6 +1,7 @@
 body {
     font-family: sans-serif; 
     background-color: whitesmoke;
+    overflow-x: hidden;
 }
 
 .navbar{
@@ -30,11 +31,17 @@ label{
     border: 1px solid rgb(17, 0, 255);
 }
 
+.logo{
+        width: 100%;
+        text-align: right;
+    }
 
-@media (max-width: 1200px) { 
+
+@media (max-width: 1000px) { 
     .sumir{  
         display :none;
-    }   
+    }
+
     .foto{
         width: 80%;
     }
@@ -44,14 +51,21 @@ label{
     }
 
     .fonte{
-        font-size: 80%;
+        font-size: 40%;
+    }
+}
+
+@media(min-width: 1000px){
+    .teste{
+        display: none;
     }
 }
 
 
-
 /* Media query para telas menores (como celulares) */
 @media (max-width: 768px) {
+    
+
     .imagem-mulher {
         position: fixed;
         left: 0;
