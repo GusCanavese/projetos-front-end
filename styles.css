@@ -32,9 +32,10 @@ label{
 }
 
 .logo{
-        width: 100%;
-        text-align: right;
-    }
+    width: 100%;
+    text-align: right;
+}
+
 
 
 @media (max-width: 1000px) { 
@@ -47,16 +48,21 @@ label{
     }
 
     .titulo{
-       font-size: medium; 
+       font-size: 40px; 
     }
 
-    .fonte{
-        font-size: 40%;
+    .paragrafo{
+        font-size: 20px;
+    }
+
+    .logo{
+        width: 60%;
+        text-align: right;
     }
 }
 
 @media(min-width: 1000px){
-    .teste{
+    .aparece{
         display: none;
     }
 }
