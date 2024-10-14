@@ -74,18 +74,27 @@ label{
     min-height: 100vh;
 }
 
-.Pilastra_Da_Direita{
-    background-image: url('imgs/Pilastra_Da_Direita.png'); 
+.Pilastra_Da_Esquerda{
+    background-image: url('imgs/Pilastra_Da_Esquerda.png'); 
     background-size: cover;
-    position:absolute;  
-    min-height: 130vh;
+    position:absolute; 
+    min-height: 140vh;
     top:30%;  
-    margin:0; 
-    padding:0;
+    
 }
 
-@media (max-width: 768px) {
-    .Pilastra_Da_Direita{
-        min-height: 70vh;
+
+@media (max-width: 576px) {
+    .masterHead h1 {
+        font-size: 1.2rem;
     }
+    .masterHead p {
+        font-size: 0.8rem;
+    }
+
+    .Pilastra_Da_Esquerda{
+        min-height: 70vh;  
+    }
+    
+    
 }
