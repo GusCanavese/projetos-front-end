@@ -2,6 +2,7 @@ body {
     font-family: sans-serif; 
     background-color: whitesmoke;
     overflow-x: hidden;
+    min-width: 480px;
 }
 
 .navbar{
