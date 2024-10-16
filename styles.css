@@ -37,7 +37,9 @@ label{
     text-align: right;
 }
 
-
+.imagem_abaixo{
+    display: none;
+}
 
 @media (max-width: 1000px) { 
     .sumir{  
@@ -89,7 +91,7 @@ label{
 }
 
 
-@media (max-width: 576px) {
+@media (max-width: 900px) {
     .masterHead h1 {
         font-size: 1.2rem;
     }
@@ -98,8 +100,28 @@ label{
     }
 
     .Pilastra_Da_Esquerda{
-        min-height: 70vh;  
+        min-height: 40vh;  
     }
     
+    .imagens_direita{
+        display: none;
+    }
+
+    .imagem_abaixo{
+        display: block;
+        width: 80%;
+        height: 70%;
+    }
+
+    .masterHead{
+        min-height: 70vh;
+        background-image: none;
+    }
+
+    .config{
+        width: 70%;
+    }
     
 }
+
+
