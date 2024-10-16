@@ -65,6 +65,10 @@ label{
     .aparece{
         display: none;
     }
+
+    .foto{
+        width: 80%;
+    }
 }
 
 .masterHead{
