@@ -104,6 +104,8 @@ label{
 
     .Pilastra_Da_Esquerda{
         min-height: 40vh;  
+        margin-bottom: 0%;
+        padding-bottom: 0%;
     }
     
     .imagens_direita{
