@@ -1,11 +1,14 @@
-
-
 body, html {
     font-family: sans-serif; 
     background-color: whitesmoke;
     overflow-x: hidden;
     min-width: 480px;
     width: 100%;
+}
+
+.form-control{
+    border-radius: 0px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.616); 
 }
 
 .chatBola{
