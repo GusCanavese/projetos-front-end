@@ -8,6 +8,15 @@ body, html {
     width: 100%;
 }
 
+.chatBola{
+    background-image: url("imgs/chatBola.png");
+    background-size: cover;
+    position:absolute; 
+    min-height:90vh;
+    right:0%;
+    top:40%;
+}
+
 .navbar{
     background-color:#003f60;
 }
@@ -28,7 +37,7 @@ label{
     color: lightgray; 
 }
 .imagemCentro{
-    width: 1000px;
+    width: 100%;
 }
 
 .borda{
@@ -92,10 +101,11 @@ label{
     background-image: url('imgs/Pilastra_Da_Esquerda.png'); 
     background-size: cover;
     position:absolute; 
-    min-height: 140vh;
+    min-height: 115vh;
     top:30%;  
-    
 }
+
+
 
 
 @media (max-width: 900px) {
@@ -136,6 +146,10 @@ label{
 
     .config{
         width: 70%;
+    }
+
+    .chatBola{
+        display: none;
     }
     
 }
