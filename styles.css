@@ -112,9 +112,11 @@ label{
 
 .masterHead{
     background-image: url('imgs/Mulher_No_Celular.png'); 
-    width: 100%; height: 70%; 
+    width: 100%; 
+    height: 70%; 
     background-size: cover;
     min-height: 100vh;
+    margin-bottom: -1px;
 }
 
 .Pilastra_Da_Esquerda{
@@ -122,7 +124,7 @@ label{
     background-size: cover;
     position:absolute; 
     min-height: 115vh;
-    top:30%;  
+    top: 30%;  
 }
 
 
